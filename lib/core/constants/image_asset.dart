@@ -2,7 +2,7 @@ class ImageAsset {
   static const String rootImgAsset = "assets/images";
 
   // logo
-  static const String appLogo = "$rootImgAsset/logo.jpg";
+  static const String appLogo = "$rootImgAsset/logo-color.png";
 
   // OnBoarding
   static const String onBoardingImgOne = "$rootImgAsset/one.PNG";
