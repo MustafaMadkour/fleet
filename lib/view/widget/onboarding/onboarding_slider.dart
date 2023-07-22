@@ -18,7 +18,7 @@ class OnBoardingSlider extends GetView<OnBoardingController> {
       itemBuilder: (context, i) => Column(
         children: [
           Image.asset(
-            height: 330,
+            height: 300,
             onBoardingList[i].image!,
             fit: BoxFit.fill,
           ),

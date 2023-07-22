@@ -21,7 +21,7 @@ List<GetPage<dynamic>>? routes = [
     name: "/",
     page: () => const Language(),
     middlewares: [
-      BaseMiddleware(),
+      // BaseMiddleware(),
     ],
   ),
   // GetPage(

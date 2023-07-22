@@ -59,19 +59,19 @@ class Register extends StatelessWidget {
                     return validator(val!, 5, 100, "username_label".tr);
                   },
                 ),
-                const SizedBox(
-                  height: 15,
-                ),
-                AuthTextForm(
-                  isNum: true,
-                  labeltext: "phone_label".tr,
-                  hinttext: "phone_hint".tr,
-                  fieldicon: Icons.phone_android_outlined,
-                  myController: controller.phone,
-                  validate: (val) {
-                    return validator(val!, 5, 12, "phone_label".tr);
-                  },
-                ),
+                // const SizedBox(
+                //   height: 15,
+                // ),
+                // AuthTextForm(
+                //   isNum: true,
+                //   labeltext: "phone_label".tr,
+                //   hinttext: "phone_hint".tr,
+                //   fieldicon: Icons.phone_android_outlined,
+                //   myController: controller.phone,
+                //   validate: (val) {
+                //     return validator(val!, 5, 12, "phone_label".tr);
+                //   },
+                // ),
                 const SizedBox(
                   height: 15,
                 ),
@@ -107,21 +107,21 @@ class Register extends StatelessWidget {
                 const SizedBox(
                   height: 15,
                 ),
-                GetBuilder<RegisterController>(
-                  builder: (controller) => AuthTextForm(
-                    isPass: controller.isShowPass,
-                    onTapIcon: () {
-                      controller.showPass();
-                    },
-                    isNum: false,
-                    labeltext: "pass_confirm_label".tr,
-                    hinttext: "pass_confirm_hint".tr,
-                    fieldicon: Icons.lock_reset_outlined,
-                    validate: (val) {
-                      return validator(val!, 5, 30, "pass_confirm_label".tr);
-                    },
-                  ),
-                ),
+                // GetBuilder<RegisterController>(
+                //   builder: (controller) => AuthTextForm(
+                //     isPass: controller.isShowPass,
+                //     onTapIcon: () {
+                //       controller.showPass();
+                //     },
+                //     isNum: false,
+                //     labeltext: "pass_confirm_label".tr,
+                //     hinttext: "pass_confirm_hint".tr,
+                //     fieldicon: Icons.lock_reset_outlined,
+                //     validate: (val) {
+                //       return validator(val!, 5, 30, "pass_confirm_label".tr);
+                //     },
+                //   ),
+                // ),
                 const SizedBox(
                   height: 15,
                 ),

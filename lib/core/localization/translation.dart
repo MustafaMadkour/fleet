@@ -68,15 +68,15 @@ class MyTranslation extends Translations {
         },
         "en": {
           "language_title": "Choose Language",
-          "onboarding_title_one": "Choose Product",
+          "onboarding_title_one": "Build your fleet",
           "onboarding_body_one":
-              "We have more than 10K products\n You will find everything\n you need on Al-Shrooq catalog",
-          "onboarding_title_two": "Cash on Delivery",
+              "Build as many ships as you want to manage,\n we will serve it to you in ease",
+          "onboarding_title_two": "Manage your ships' crew",
           "onboarding_body_two":
-              "No credit cards for now\n You can pay cash on delivery \n more easy ways will be added later",
-          "onboarding_title_three": "Track Your Order",
+              "You can manage your crew for every ship,\n their certificates and everything about them",
+          "onboarding_title_three": "Manage Certificates",
           "onboarding_body_three":
-              "You can track your order with Al-Shrooq \n You can see your order on the map\n on Al-Shrooq Shop",
+              "You can track your ships' certificates,\n Get notified about their expiration dates and status",
           "onboarding_button": "Continue",
           "login_title": "Sign In",
           "login_subtitle": "Welcome Back",
@@ -101,12 +101,12 @@ class MyTranslation extends Translations {
           "resetpass_body":
               "Please enter your new password and confirm it to use it later for signing in.",
           "username_label": "Username",
-          "phone_label": "Phone",
+          "role_label": "Role",
           "email_label": "Email",
           "pass_label": "Password",
           "pass_confirm_label": "Confirm Password",
           "username_hint": "Please enter your Username",
-          "phone_hint": "Please enter your Phone number",
+          "role_hint": "Please enter your role",
           "email_hint": "Please enter your Email",
           "pass_hint": "Please enter your Password",
           "pass_confirm_hint": "Please confirm your Password",

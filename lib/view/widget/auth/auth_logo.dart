@@ -6,16 +6,10 @@ class AuthLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CircleAvatar(
-      radius: 70,
-      child: Padding(
-        padding: const EdgeInsets.all(0), // Border radius
-        child: ClipOval(
-          child: Image.asset(
-            ImageAsset.appLogo,
-          ),
-        ),
-      ),
+    return Image.asset(
+      ImageAsset.appLogo,
+      width: 200,
+      height: 200,
     );
   }
 }
